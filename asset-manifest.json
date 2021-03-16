@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/asksid27.github.io/static/css/main.225953de.chunk.css",
+    "main.js": "/asksid27.github.io/static/js/main.3978c4c8.chunk.js",
+    "main.js.map": "/asksid27.github.io/static/js/main.3978c4c8.chunk.js.map",
+    "runtime-main.js": "/asksid27.github.io/static/js/runtime-main.8379074b.js",
+    "runtime-main.js.map": "/asksid27.github.io/static/js/runtime-main.8379074b.js.map",
+    "static/js/2.e987f134.chunk.js": "/asksid27.github.io/static/js/2.e987f134.chunk.js",
+    "static/js/2.e987f134.chunk.js.map": "/asksid27.github.io/static/js/2.e987f134.chunk.js.map",
+    "static/js/3.5b863fef.chunk.js": "/asksid27.github.io/static/js/3.5b863fef.chunk.js",
+    "static/js/3.5b863fef.chunk.js.map": "/asksid27.github.io/static/js/3.5b863fef.chunk.js.map",
+    "index.html": "/asksid27.github.io/index.html",
+    "static/css/main.225953de.chunk.css.map": "/asksid27.github.io/static/css/main.225953de.chunk.css.map",
+    "static/js/2.e987f134.chunk.js.LICENSE.txt": "/asksid27.github.io/static/js/2.e987f134.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8379074b.js",
+    "static/js/2.e987f134.chunk.js",
+    "static/css/main.225953de.chunk.css",
+    "static/js/main.3978c4c8.chunk.js"
+  ]
+}

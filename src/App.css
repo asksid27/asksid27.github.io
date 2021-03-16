@@ -1,38 +1,73 @@
 .App {
+  height: 40vmin;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.header {
+  height: 10vmin;
+  width: 100%;
+}
+
+.Name {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 35%;
+  margin: 10px auto;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 10px auto;
+  font-size: 40px;
+  box-sizing: border-box;
+  border: 2px solid #335555;
+  box-shadow: 0 0 10px #335555, inset 0 0 5px #335555;
+}
+
+.Header_End {
+  height: 55px;
+  background-color: #dddddd;
+  margin-top: -28px;
+  z-index: -1;
+  width: 100%;
+  position: absolute;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Designation {
+  position: relative;
+  top: 25px;
+  font-size: 25px;
+  color: dimgray;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@media screen and (max-width: 1200px) {
+  .Name {
+    width: 50%;
+    font-size: 38px;
+  }
+  .Designation {
+    font-size: 20px;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media screen and (max-width: 1000px) {
+  .Name {
+    width: 50%;
+    font-size: 38px;
   }
-  to {
-    transform: rotate(360deg);
+}
+
+@media screen and (max-width: 800px) {
+  .Name {
+    width: 60%;
+    font-size: 35px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .Name {
+    width: 70%;
+    font-size: 30px;
   }
 }
